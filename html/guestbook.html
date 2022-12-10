@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset='UTF-8'>
+    <title>Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        label {
+            font-size: 20px;
+        }
+        select {
+            font-size: 20px;
+        }
+        input {
+            font-size: 20px;
+        }
+        textarea {
+            font-size: 20px;
+        } 
+     </style>    
+</head>
+<body style="background-color:#F2CA49;">
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="leftColumn">
+                <div class="nav-link-wrapper">
+                    <a href="home.html">Home</a>
+                </div>
+                
+                <div class="nav-link-wrapper">
+                    <a href="interests.html">Interests</a>
+                </div>
+
+				<div class="nav-link-wrapper">
+                    <a href="reflections.html">Reflections</a>
+                </div>
+
+				<div class="nav-link-wrapper">
+                    <a href="guestbook.html">Guest Book</a>
+                </div>
+
+				<div class="nav-link-wrapper">
+                    <a href="resume.html">Resume</a>
+                </div>
+            </div>
+            
+            <div class="rightColumn">
+                <div class="brand">
+                    <div>ALEX URS-BADET</div> 
+                </div> 
+            </div>
+        </div>
+        
+    <h1 style="text-align: center">Guest Book</h1>
+    <form action="mailto:alexanderursbadet@gmail.com" method="post">
+        <div>
+            <label class="fonts">Please enter your name</label>
+            <input type="text" name="name">
+        </div>
+        <br>
+        <div>
+            <label>How did you find me?</label>
+            <select name="found">
+                <option>Select one</option>
+                <option>Just Surfed in!</option>
+                <option>Word of Mouth</option>
+                <option>Search Engine</option>
+                <option>A Friend Sent me</option>
+            </select>    
+        </div>
+        <br>
+        <div>
+            <label>Your website:</label>
+            <input type="text" name="url" value="http://">
+        </div>
+        <br>
+        <div>
+            <label style="display: flex;">Comment</label>
+            <textarea style="width: 525px; height: 140px"></textarea>
+        </div>
+        <input type="reset" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
